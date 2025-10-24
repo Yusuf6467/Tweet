@@ -5,5 +5,5 @@ from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
-    path('/', views.tweet, name='tweet')
+    path('', views.tweet, name='tweet')
 ]
